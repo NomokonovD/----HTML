@@ -1,0 +1,17 @@
+body{
+            background-color:burlywood;
+            margin-left: 20%;
+            margin-right: 20%;
+            border: 2px dotted ;
+            padding: 10px 50px 50px 50px;
+            font-family: sans-serif;
+        }
+
+.s{
+    font-size: 35px;
+    color:black;
+}
+
+.size{
+    font-size: 20px;
+}
