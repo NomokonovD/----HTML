@@ -1,24 +1,24 @@
 .body1{
-            background-color:burlywood;
-            margin-left: 20%;
-            margin-right: 20%;
-            border: 2px dotted ;
-            padding: 10px 50px 50px 50px;
-            font-family: sans-serif;
-        }
+    background-color:burlywood;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px dotted ;
+    padding: 10px 50px 50px 50px;
+    font-family: sans-serif;
+}
 
 .body2{
-    background-image: url(images/фон.png);
-    height: 1080px;;
+background-image: url(images/фон1.png);
+
 }
 
 .s{
-    font-size: 35px;
-    color:black;
+font-size: 35px;
+color:black;
 }
 
 .size{
-    font-size: 20px;
+font-size: 20px;
 }
 
 .cen{
@@ -26,34 +26,108 @@ display: flex;
 }
 
 .cen>div{
-    margin-right: 100px;
+margin-right: 100px;
 }
 
 .search{
-    border: 4px solid rgb(25, 191, 31) ;
-    display:inline-flex;
-    padding: 0 20px;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
-    border-radius: 5px;
-    overflow: hidden;
-    background-color: white;
+border: 4px solid rgb(25, 191, 31) ;
+display:inline-flex;
+padding: 0 20px;
+justify-content: space-between;
+align-items: center;
+height: 50px;
+border-radius: 5px;
+overflow: hidden;
+background-color: white;
 }
 
 .search-form{
-    border:none;
-    width: 200px;
-    outline: none;
-    font-size: 20px;
-    padding-right: 10px;
+border:none;
+border-radius: 20%;
+width: 200px;
+outline: none;
+font-size: 20px;
+padding-right: 10px #689CD2;
+
+color: rgb(161, 161, 161);
 
 }
 
 .search-bt{
-    border: none;
+border: none;
 }
 
 .search-bt:hover{
-    background-color: rgb(13, 219, 47);
+background-color: rgb(13, 219, 47);
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    
+    background: #689CD2;
+    color:#fff;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 5%;
+}
+
+.header>img{
+    margin:7px;
+}
+
+.buttonGame{
+    display: inline-block;
+    padding: 10px 15px;
+    color:white;
+    background-color: rgb(49, 181, 252);
+    border: 1px solid blue;
+    border-radius: 5px;
+    user-select: none;
+    margin: 1px;
+}
+
+.buttonGame:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    background-color: #FF9900;
+}
+
+.header_word{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    height: 25px;
+    width: 600px;
+
+    background: #689CD2;
+    color:#fff;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 45%;
+}
+
+.fontP{
+    color:rgb(3, 73, 134);
+    font-family: Helvetica;
+    font-size: 13px;
+}
+
+.ListWord{
+    display:flex;
+    padding: 15px;
+    height: 290px;
+    width: 600px;
+
+    background: #689CD2;
+    color:#fff;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 15px;
+    border: 3px solid rgb(64, 69, 103);
 }

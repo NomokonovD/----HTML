@@ -9,16 +9,43 @@
 </head>
 
 <body class="body2">
-    <h3 align="center">Задание 2</h3>
+
+    <div class="header">
+        <img src="images/logo.png" alt="logo" >
+            МИНИ-ИГРА ГРЕБЕШОК
+            <img src="images/logo.png" alt="logo">
+    </div>
+
     <div align="center">
-        <p >
-            Мини-игра Гребешок 
-            <button onclick="Rules()">Правила игры</button>
-            <br><br>
-            
+        <p>
+            <button onclick="Rules()" class="buttonGame">Правила игры</button>
+            <button class="buttonGame" onclick="NewGame()">Новая игра</button>
+            <br>
+            <br>
+            <button class="buttonGame" id="btn1" onclick="clickButt1()">Л Н К</button>
+            <button class="buttonGame" id="btn2" onclick="clickButt2()">Д П С</button>
+
+            <br><br>  
         </p>
-        <input type="text" id="input">
-        <button onclick="Game()">Ввод слова</button>
+        <div class = "header_word">
+
+            <p>Попробуйте написать слова, состоящие из букв: <span id="inputWord"></span></p>
+        </div>
+        <br>
+        <div class="search">
+            <input class="search-form" type="text" id="input" placeholder="Введите слово...">
+            <button class="buttonGame" onclick="Game()">Ввод слова</button>
+        </div>
+        <p class="fontP" id="Err"></p>
+
+        <div class="ListWord">
+            <p>Список составленных слов:</p>
+            <br>
+            <p id="ListW"></p>
+        </div>
+        
+    </div>
+    
 
     </div>
 </body>
