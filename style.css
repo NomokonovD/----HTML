@@ -23,6 +23,17 @@ font-size: 20px;
 
 .cen{
 display: flex;
+background-color: #31b5fc;
+position: absolute;
+transform: translate(-50%,-50%);
+top:50%;
+left: 50%;
+border-radius: 40px;
+padding: 40px;
+}
+
+img{
+    border-radius: 40%;
 }
 
 .cen>div{
@@ -83,7 +94,7 @@ background-color: rgb(13, 219, 47);
     display: inline-block;
     padding: 10px 15px;
     color:white;
-    background-color: rgb(49, 181, 252);
+    background-color: #31b5fc;
     border: 1px solid blue;
     border-radius: 5px;
     user-select: none;
@@ -119,15 +130,29 @@ background-color: rgb(13, 219, 47);
 }
 
 .ListWord{
-    display:flex;
-    padding: 15px;
-    height: 290px;
+  
+    height: 270px;
     width: 600px;
-
     background: #689CD2;
     color:#fff;
     font-family: Helvetica;
     font-weight: bold;
     font-size: 15px;
     border: 3px solid rgb(64, 69, 103);
+    
 }
+
+.ListCenter{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 5px;
+    
+
+}
+
+.ListW{
+    text-align: left;
+    margin: 5px;
+    word-break: break-all;
+}
+    
